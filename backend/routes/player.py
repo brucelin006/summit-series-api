@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from models.player import Player
 from configs.database import client
 from bson.objectid import ObjectId
-from schemas.player import *
+from schemas.player import player_entity, player_entity_list
 
 router = APIRouter()
 players_collection = client["summit-series-db"].players

@@ -2,5 +2,7 @@
     "files.exclude": {
         ".vscode": true,
         "**/__pycache__": true
-    }
+    },
+    "python.analysis.autoImportCompletions": true,
+    "editor.fontLigatures": true
 }
