@@ -7,6 +7,9 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 pymongo = "*"
+pydantic = "*"
+fastapi-utils = "*"
+bcrypt = "*"
 
 [dev-packages]
 faker = "*"

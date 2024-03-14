@@ -3,7 +3,7 @@ from routes.player import router as player_router
 
 app = FastAPI()
 
-app.include_router(player_router)
+app.include_router(player_router, prefix="/players")
 
 
 @app.get("/")
