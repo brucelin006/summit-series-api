@@ -1,5 +1,4 @@
 from enum import IntEnum
-# from fastapi_utils.enums import StrEnum
 
 
 class PlayerGenderEnum(IntEnum):
